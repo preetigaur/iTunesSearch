@@ -1,0 +1,65 @@
+h1 {
+  font-size: 3.0em;
+  line-height: 1.0em;
+  font-weight: 200;
+  padding: 4px 0 0 20px;
+  display: block;
+}
+
+h1 small {
+  font-weight: 200;
+  display: block;
+  font-size: .4em;
+}
+
+#logo {
+  float: left;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.header {
+  margin: auto;
+  padding: 50px;
+}
+
+.track-div {
+  width: 800px;
+  float:left;
+}
+
+.input-group {
+  margin: 20px 0 20px 0;
+}
+
+#music-container {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+  
+}
+
+.songs {
+  float: left;
+  padding: 5px 5px 10px 5px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+}
+
+.music-img {
+  position:relative;
+  padding-top:100%;
+  overflow: hidden;
+  background-color: #e7e7e7;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  #logo {
+    width: 60px;
+  }
+}
